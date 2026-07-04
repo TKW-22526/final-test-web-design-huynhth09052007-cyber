@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên Hệ - BIG BIKE</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/thesis/logo.png" alt="BIG BIKE Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Trang Chủ</a></li>
+                <li><a href="gioi-thieu.html">Giới Thiệu</a></li>
+                <li><a href="san-pham.html">Sản Phẩm</a></li>
+                <li><a href="lien-he.html" class="active">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="contact-hero">
+        <h1>Liên Hệ Với Chúng Tôi</h1>
+        <p>Đội ngũ BIG BIKE luôn sẵn sàng tư vấn cho đam mê phân khối lớn của bạn.</p>
+    </section>
+
+    <div class="contact-cards">
+        <div class="contact-card">
+            <div class="contact-card-icon icon-phone">📞</div>
+            <div class="contact-card-label">Hotline</div>
+            <div class="contact-card-value">0909 123 456</div>
+            <div class="contact-card-sub">8:00 - 21:00 mỗi ngày</div>
+        </div>
+
+        <div class="contact-card">
+            <div class="contact-card-icon icon-email">✉️</div>
+            <div class="contact-card-label">Email</div>
+            <div class="contact-card-value">contact@bigbike.vn</div>
+            <div class="contact-card-sub">Phản hồi trong 24h</div>
+        </div>
+
+        <div class="contact-card">
+            <div class="contact-card-icon icon-zalo">💬</div>
+            <div class="contact-card-label">Zalo</div>
+            <div class="contact-card-value green">0909 123 456</div>
+            <div class="contact-card-sub">Tư vấn nhanh</div>
+        </div>
+
+        <div class="contact-card">
+            <div class="contact-card-icon icon-fb">📘</div>
+            <div class="contact-card-label">Facebook</div>
+            <div class="contact-card-value purple">fb.com/bigbike</div>
+            <div class="contact-card-sub">Cập nhật xe mới</div>
+        </div>
+    </div>
+
+    <main class="contact-main">
+        <section class="form-section">
+            <h2>Gửi Yêu Cầu Tư Vấn</h2>
+            <p class="form-subtitle">Điền thông tin bên dưới, chúng tôi sẽ liên hệ lại sớm nhất.</p>
+
+            <form id="contact-form">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="fullname">Họ và tên<span class="required">*</span></label>
+                        <input type="text" id="fullname" name="fullname" placeholder="Nguyễn Văn A" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Số điện thoại<span class="required">*</span></label>
+                        <input type="tel" id="phone" name="phone" placeholder="09xx xxx xxx" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="ban@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="interest">Xe quan tâm</label>
+                        <select id="interest" name="interest">
+                            <option value="">-- Chọn dòng xe --</option>
+                            <option value="600-1000">Phân khối 600 - 1000cc</option>
+                            <option value="150-600">Phân khối 150 - 600cc</option>
+                            <option value="gia-hoi">Xe giá hời</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Lời nhắn</label>
+                    <textarea id="message" name="message" placeholder="Nội dung bạn muốn tư vấn..."></textarea>
+                </div>
+
+                <button type="submit" class="btn-submit">📩 Gửi Yêu Cầu</button>
+            </form>
+        </section>
+
+        <aside class="contact-sidebar">
+            <div class="info-box">
+                <h3>Thông Tin Cửa Hàng</h3>
+                <div class="info-row">
+                    <span class="label">Địa chỉ</span>
+                    <span class="value">123 Đường ABC, Q.1, TP.HCM</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">Giờ mở cửa</span>
+                    <span class="value">8:00 - 21:00</span>
+                </div>
+                <div class="info-row">
+                    <span class="label">Mã số thuế</span>
+                    <span class="value">0123456789</span>
+                </div>
+            </div>
+
+            <div class="info-box">
+                <h3>Kết Nối Với Chúng Tôi</h3>
+                <div class="social-tags">
+                    <a href="#" class="social-tag">Facebook</a>
+                    <a href="#" class="social-tag">Zalo</a>
+                    <a href="#" class="social-tag">Youtube</a>
+                    <a href="#" class="social-tag">TikTok</a>
+                </div>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BIG BIKE. Tất cả các quyền được bảo lưu.</p>
+    </footer>
+
+    <script>
+        document.getElementById('contact-form').addEventListener('submit', function (e) {
+            e.preventDefault();
+            alert('Cảm ơn bạn đã gửi yêu cầu! Chúng tôi sẽ liên hệ lại sớm nhất.');
+            this.reset();
+        });
+    </script>
+</body>
+</html>

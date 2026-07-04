@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Sản Phẩm - BIG BIKE</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/thesis/logo.png" alt="BIG BIKE"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Trang Chủ</a></li>
+                <li><a href="gioi-thieu.html">Giới Thiệu</a></li>
+                <li><a href="san-pham.html">Sản Phẩm</a></li>
+                <li><a href="lien-he.html">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <a href="san-pham.html" class="back-link">← Quay lại danh sách sản phẩm</a>
+        <div class="detail-container">
+            <img id="prod-img" src="../assets/thesis/logo.png" alt="Sản phẩm" class="detail-img">
+            <div class="detail-info">
+                <h2 id="prod-title">Tên sản phẩm</h2>
+
+                <div class="price-weight-row">
+                    <p id="prod-price" class="price">0 VND</p>
+                    <span id="prod-weight" class="weight-badge">—</span>
+                </div>
+
+                <p><strong>Tình trạng:</strong> <span style="color: #1a8f6d;">✔ Còn hàng</span></p>
+                <br>
+                <p id="prod-desc">Mô tả sản phẩm...</p>
+                <br>
+                <p><strong>Thông số kỹ thuật:</strong> <span id="prod-ingredients">Đang cập nhật...</span></p>
+                <br>
+                <button class="btn" onclick="alert('Đã thêm sản phẩm vào giỏ hàng!')">🛒 Thêm Vào Giỏ Hàng</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BIG BIKE. Tất cả các quyền được bảo lưu.</p>
+    </footer>
+
+    <script src="../js/data.js"></script>
+    <script src="../js/chi-tiet.js"></script>
+</body>
+</html>

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản Phẩm - BIG BIKE</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <a href="../index.html"><img src="../assets/thesis/logo.png" alt="BIG BIKE Logo"></a>
+            </div>
+            <ul class="nav-links">
+                <li><a href="../index.html">Trang Chủ</a></li>
+                <li><a href="gioi-thieu.html">Giới Thiệu</a></li>
+                <li><a href="san-pham.html" class="active">Sản Phẩm</a></li>
+                <li><a href="lien-he.html">Liên Hệ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 class="section-title">Danh Sách Sản Phẩm</h2>
+
+        <div class="filter-bar">
+            <button class="filter-btn active" data-filter="all">Tất Cả</button>
+            <button class="filter-btn" data-filter="600-1000">Phân Khối 600 - 1000cc</button>
+            <button class="filter-btn" data-filter="150-600">Phân Khối 150 - 600cc</button>
+            <button class="filter-btn" data-filter="gia-hoi">Xe Giá Hời</button>
+        </div>
+
+        <!-- Danh sách sản phẩm được render tự động bằng JavaScript từ js/data.js -->
+        <div class="product-grid"></div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 BIG BIKE. Tất cả các quyền được bảo lưu.</p>
+    </footer>
+
+    <script src="../js/data.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>
