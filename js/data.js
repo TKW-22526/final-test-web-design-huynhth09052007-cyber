@@ -86,7 +86,7 @@ const PRODUCTS = [
   {
     id: "ninja400",
     name: "Kawasaki Ninja 400",
-    image: "../assets/thesis/ninja400.jpg",
+    image: "../assets/thesis/ninja 400.jpg",
     price: 165000000,
     displacement: "399cc",
     category: "150-600",
@@ -97,7 +97,7 @@ const PRODUCTS = [
   {
     id: "cb500f",
     name: "Honda CB500F",
-    image: "../assets/thesis/cb500f.jpg",
+    image: "../assets/thesis/cb500.jpg",
     price: 195000000,
     displacement: "471cc",
     category: "150-600",
@@ -119,7 +119,7 @@ const PRODUCTS = [
   {
     id: "cbr150r",
     name: "Honda CBR150R",
-    image: "../assets/thesis/cbr150r.jpg",
+    image: "../assets/thesis/cbr150.jpg",
     price: 92000000,
     displacement: "149cc",
     category: "150-600",
@@ -130,7 +130,7 @@ const PRODUCTS = [
   {
     id: "winnerx",
     name: "Honda Winner X",
-    image: "../assets/thesis/winnerx.jpg",
+    image: "../assets/thesis/winner.jpg",
     price: 46000000,
     displacement: "150cc",
     category: "gia-hoi",
@@ -141,7 +141,7 @@ const PRODUCTS = [
   {
     id: "exciter155",
     name: "Yamaha Exciter 155",
-    image: "../assets/thesis/exciter155.jpg",
+    image: "../assets/thesis/155.jpg",
     price: 52000000,
     displacement: "155cc",
     category: "gia-hoi",
@@ -152,7 +152,7 @@ const PRODUCTS = [
   {
     id: "raider150",
     name: "Suzuki Raider R150",
-    image: "../assets/thesis/raider150.jpg",
+    image: "../assets/thesis/rider.jpg",
     price: 58000000,
     displacement: "150cc",
     category: "gia-hoi",
